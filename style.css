@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 50px 200px;
+}
+.nav ul{
+    gap: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+.nav a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: green;
+}
+.desc{
+    display: flex;
+}
+.body-left{
+    gap: 30px;
+    display: flex;
+    padding-top: 150px;
+    flex-direction: column;
+}
+.body-header{
+    width: 500px;
+    font-size: 25px;
+}
+.title{
+    font-size: 20px;
+}
+button{
+    width: 200px;
+    height: 48px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 100, 100, 1);;
+}
+.body-right{
+    padding: 150px 50px 100px 250px;
+}
+
+/* ---------- main --------- */
+.head-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-title a{
+    text-decoration: none;
+    color: rgba(0, 168, 204, 1);
+}
+.title-desc{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.desc-card{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* ----------------section------------------ */
+.recommends{
+    display: flex;
+    align-items: center;;
+    gap: 50px;
+}
+.recommend-img{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.img-description{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.information{
+    display: flex;
+    gap: 30px;
+}
+.information h2{
+    width: 60px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(20, 40, 80, 1);
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
