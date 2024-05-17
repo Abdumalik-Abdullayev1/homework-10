@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+.container{
+    padding: 30px 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav a{
+    display: flex;
+    color: white;
+}
+.model-s{
+    width: 96px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(0, 129, 255, 1);
+    border: 1px solid;
+    border-radius: 85px;
+    color: rgba(0, 129, 255, 1);
+}
+.search{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    width: 180px;
+    height: 35px;
+}
+main{
+    display: flex;
+    padding: 100px 150px;
+}
+.project-img{
+    width: 1200px;
+    height: 490px;
+}
+
+.footer-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-car{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    /* justify-content: space-between; */
+}
+.car-desc{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 189px;
+    height: 40px;
+    background-color: rgba(0, 129, 255, 1);
+    font-size: 20px;
+    border-radius: 85px;
+    color: white;
+}
